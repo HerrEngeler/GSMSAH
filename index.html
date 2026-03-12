@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startseite — Grund- und Mittelschule Absberg-Haundorf</title>
+  <meta name="description" content="Herzlich Willkommen an der Grund- und Mittelschule Absberg-Haundorf. Leben – Lernen – Wachsen lassen.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="header-top">
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <!-- SVG Logo -->
+        <svg class="logo-svg" width="44" height="44" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="48" fill="#134F5C" stroke="#DEF0F3" stroke-width="2"/>
+          <!-- Sun -->
+          <circle cx="50" cy="22" r="9" fill="#C8940A"/>
+          <line x1="50" y1="9"  x2="50" y2="4"  stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="50" y1="35" x2="50" y2="40" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="37" y1="22" x2="32" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="63" y1="22" x2="68" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="40" y1="13" x2="37" y2="9"  stroke="#C8940A" stroke-width="2" stroke-linecap="round"/>
+          <line x1="60" y1="13" x2="63" y2="9"  stroke="#C8940A" stroke-width="2" stroke-linecap="round"/>
+          <!-- Figures (3 children) -->
+          <circle cx="35" cy="52" r="5" fill="white"/>
+          <rect x="31" y="57" width="8" height="10" rx="3" fill="white"/>
+          <circle cx="50" cy="50" r="5.5" fill="white"/>
+          <rect x="46" y="55" width="8" height="11" rx="3" fill="white"/>
+          <circle cx="65" cy="52" r="5" fill="white"/>
+          <rect x="61" y="57" width="8" height="10" rx="3" fill="white"/>
+          <!-- Wave / Ground -->
+          <path d="M18 78 Q30 72 42 78 Q54 84 66 78 Q78 72 82 78" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Trees (triangles) -->
+          <polygon points="20,76 26,60 32,76" fill="rgba(255,255,255,.35)"/>
+          <polygon points="68,76 74,60 80,76" fill="rgba(255,255,255,.35)"/>
+          <!-- Text arc bottom -->
+          <path id="arc" d="M 20 80 A 35 35 0 0 0 80 80" fill="none"/>
+          <text font-size="7.5" font-weight="700" font-family="sans-serif" fill="rgba(255,255,255,.8)" letter-spacing="1">
+            <textPath href="#arc" startOffset="12%">GSMS ABSBERG-HAUNDORF</textPath>
+          </text>
+        </svg>
+        <div class="logo-text">
+          <strong>GSMS Absberg-Haundorf</strong>
+          <span>Grund- und Mittelschule</span>
+        </div>
+      </a>
+      <div class="header-top-info">
+        <span>📞 <a href="tel:09837269">09837 / 269</a></span>
+        <span>✉️ <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></span>
+        <span>📍 Haundorf-Gräfensteinberg</span>
+      </div>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Hauptnavigation">
+    <div class="nav-inner">
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="index.html" class="active">Startseite</a></li>
+        <li><a href="unsere-schule.html">Unsere Schule</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html">Mittelschule</a></li>
+        <li><a href="angebote.html">Angebote &amp; Ganztag</a></li>
+        <li><a href="news.html">Aktuelles</a></li>
+        <li><a href="eltern.html">Eltern &amp; Downloads</a></li>
+        <li><a href="klassenfotos.html" class="nav-protect">🔒 Klassenfotos</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <button class="nav-mobile-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="hamburger-icon"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Willkommen an der</p>
+      <h1>Grund- und Mittelschule Absberg-Haundorf</h1>
+      <p class="lead">Leben &ndash; Lernen &ndash; Wachsen lassen. Drei Schulhäuser, eine Gemeinschaft &ndash; gemeinsam stark für jedes Kind.</p>
+      <div class="hero-actions">
+        <a href="grundschule.html" class="btn btn-primary">Grundschule</a>
+        <a href="mittelschule.html" class="btn btn-outline">Mittelschule</a>
+        <a href="news.html" class="btn btn-outline">Aktuelles</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg width="240" height="240" viewBox="0 0 200 200">
+        <circle cx="100" cy="100" r="98" fill="none" stroke="white" stroke-width="2" stroke-dasharray="8 4"/>
+        <circle cx="100" cy="45" r="18" fill="white"/>
+        <line x1="100" y1="22" x2="100" y2="10" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <line x1="100" y1="68" x2="100" y2="80" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <line x1="77"  y1="45" x2="65"  y2="45" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <line x1="123" y1="45" x2="135" y2="45" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="60"  cy="110" r="11" fill="white"/>
+        <rect x="53" y="121" width="14" height="20" rx="6" fill="white"/>
+        <circle cx="100" cy="106" r="12" fill="white"/>
+        <rect x="92"  y="118" width="16" height="22" rx="6" fill="white"/>
+        <circle cx="140" cy="110" r="11" fill="white"/>
+        <rect x="133" y="121" width="14" height="20" rx="6" fill="white"/>
+        <path d="M30 158 Q50 148 70 158 Q90 168 110 158 Q130 148 150 158 Q165 165 170 158" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+        <polygon points="30,155 40,130 50,155" fill="white" opacity=".4"/>
+        <polygon points="148,155 158,130 168,155" fill="white" opacity=".4"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INFO BAR ===== -->
+<div class="info-bar">
+  <div class="container">
+    <div class="info-item">📅 <strong>Schuljahr 2025/26</strong></div>
+    <div class="info-divider">|</div>
+    <div class="info-item">🏫 3 Schulhäuser in Gräfensteinberg, Absberg &amp; Haundorf</div>
+    <div class="info-divider">|</div>
+    <div class="info-item">📞 <a href="tel:09837269">09837 / 269</a> &nbsp;&bull;&nbsp; <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></div>
+    <div class="info-divider">|</div>
+    <div class="info-item">⏰ Büro: Mo–Fr 7:30–13:00 Uhr</div>
+  </div>
+</div>
+
+<!-- ===== QUICK TILES ===== -->
+<section class="section section--light">
+  <div class="container">
+    <div class="quick-tiles">
+      <a href="grundschule.html" class="quick-tile">
+        <div class="quick-tile-icon">🏫</div>
+        <div>
+          <strong>Grundschule</strong>
+          <span>Klassen 1 bis 4 in Gräfensteinberg, Absberg &amp; Haundorf</span>
+        </div>
+      </a>
+      <a href="mittelschule.html" class="quick-tile">
+        <div class="quick-tile-icon">🎓</div>
+        <div>
+          <strong>Mittelschule</strong>
+          <span>Klassen 5 bis 9 – der Weg zur Qualifikation</span>
+        </div>
+      </a>
+      <a href="angebote.html" class="quick-tile">
+        <div class="quick-tile-icon">⭐</div>
+        <div>
+          <strong>Offener Ganztag</strong>
+          <span>Betreuung &amp; Förderung am Nachmittag</span>
+        </div>
+      </a>
+      <a href="news.html" class="quick-tile">
+        <div class="quick-tile-icon">📰</div>
+        <div>
+          <strong>Aktuelles</strong>
+          <span>Neuigkeiten, Events und Berichte aus dem Schulalltag</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AKTUELLES ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Neuigkeiten</div>
+      <h2>Aktuelles aus unserer Schule</h2>
+      <p>Berichte, Projekte und Erlebnisse aus dem Schulalltag</p>
+    </div>
+    <div class="news-grid">
+      <div class="news-card">
+        <div class="news-card-img">🎭</div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Februar 2025</span>
+            <span class="news-card-tag">Grundschule</span>
+          </div>
+          <h3>Jede Menge Faschingsgaudi</h3>
+          <p>Mit bunten Kostümen und einem schwungvollen Programm feierten alle Klassen gemeinsam den Schulkarneval.</p>
+          <a href="news.html" class="read-more">Weiterlesen</a>
+        </div>
+      </div>
+      <div class="news-card">
+        <div class="news-card-img">🛡️</div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Januar 2025</span>
+            <span class="news-card-tag">Mittelschule</span>
+          </div>
+          <h3>Suchtprävention in der Mittelschule</h3>
+          <p>Experten besuchten unsere Klassen und gaben wertvolle Einblicke in das Thema Medienkompetenz und Suchtprävention.</p>
+          <a href="news.html" class="read-more">Weiterlesen</a>
+        </div>
+      </div>
+      <div class="news-card">
+        <div class="news-card-img">❄️</div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Januar 2025</span>
+            <span class="news-card-tag">Alle Klassen</span>
+          </div>
+          <h3>Hurra, es hat geschneit!</h3>
+          <p>Der erste Schnee des Jahres sorgte auf dem Schulhof für ausgelassene Stimmung – die Pause wurde zum Highlight des Tages.</p>
+          <a href="news.html" class="read-more">Weiterlesen</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-xl">
+      <a href="news.html" class="btn btn-teal">Alle Neuigkeiten ansehen</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SCHULE IN ZAHLEN ===== -->
+<section class="section section--light">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Unsere Schule</div>
+      <h2>Die GSMS in Zahlen</h2>
+    </div>
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Schulhäuser</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">~250</div>
+        <div class="stat-label">Schülerinnen &amp; Schüler</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">16</div>
+        <div class="stat-label">Klassen</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">seit 1960</div>
+        <div class="stat-label">Im Herzen der Region</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GS / MS PANEL ===== -->
+<div class="schools-split">
+  <div class="school-panel school-panel--gs">
+    <h2>🏫 Grundschule</h2>
+    <p>Kleine Klassen, individuelle Förderung und ein herzliches Miteinander – unsere Grundschule legt das Fundament für eine starke Bildungskarriere.</p>
+    <a href="grundschule.html" class="btn btn-primary">Mehr zur Grundschule</a>
+  </div>
+  <div class="school-panel school-panel--ms">
+    <h2>🎓 Mittelschule</h2>
+    <p>Auch die Mittelschule ist eine höher führende Schule! Überdurchschnittliche Quali-Ergebnisse und alle Schüler finden einen Ausbildungsplatz.</p>
+    <a href="mittelschule.html" class="btn btn-primary">Mehr zur Mittelschule</a>
+  </div>
+</div>
+
+<!-- ===== AUSZEICHNUNGEN ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Auszeichnungen</div>
+      <h2>Unsere Zertifikate &amp; Preise</h2>
+    </div>
+    <div class="badges-row" style="justify-content:center;">
+      <div class="badge-item"><span class="badge-icon">🏅</span> Schule ohne Rassismus – Schule mit Courage</div>
+      <div class="badge-item"><span class="badge-icon">🎮</span> Spielen macht Schule 2018 – ausgezeichnet</div>
+      <div class="badge-item"><span class="badge-icon">🌱</span> Umweltschule / Grüner Daumen</div>
+      <div class="badge-item"><span class="badge-icon">🏆</span> Musical-Wettbewerb Spardabank – 300€</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WICHTIGE LINKS ===== -->
+<section class="section section--light">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Schnellzugriff</div>
+      <h2>Wichtige Informationen</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">Schuljahr 2025/26</div>
+          <h3>Busfahrpläne</h3>
+          <p>Aktuelle Busverbindungen zu allen drei Schulhäusern für das Schuljahr 2025/26.</p>
+          <a href="eltern.html#downloads" class="card-link">Download</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">Weiterführende Schulen</div>
+          <h3>Bildungswege</h3>
+          <p>Von der Mittelschule zur Universität – alle Möglichkeiten auf einen Blick.</p>
+          <a href="mittelschule.html#bildungsweg" class="card-link">Mehr erfahren</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tag">Für Eltern</div>
+          <h3>🔒 Klassenfotos</h3>
+          <p>Fotos aus dem Schulalltag – passwortgeschützt für mehr Datenschutz.</p>
+          <a href="klassenfotos.html" class="card-link">Zum Bereich</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text">
+          <strong>GSMS Absberg-Haundorf</strong><br>
+          <span>Grund- und Mittelschule</span>
+        </div>
+        <p>Leben – Lernen – Wachsen lassen. Unsere Schule verbindet Tradition und Moderne in drei Schulhäusern im Herzen des Altmühllands.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="unsere-schule.html">Unsere Schule</a></li>
+          <li><a href="grundschule.html">Grundschule</a></li>
+          <li><a href="mittelschule.html">Mittelschule</a></li>
+          <li><a href="angebote.html">Ganztag &amp; Angebote</a></li>
+          <li><a href="news.html">Aktuelles</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Für Eltern</h4>
+        <ul>
+          <li><a href="eltern.html">Elternbeirat</a></li>
+          <li><a href="eltern.html#downloads">Downloads</a></li>
+          <li><a href="klassenfotos.html">Klassenfotos 🔒</a></li>
+          <li><a href="mittelschule.html#bildungsweg">Bildungswege</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:09837269">📞 09837 / 269</a></li>
+          <li><a href="mailto:verwaltung@gsms-ah.de">✉️ E-Mail</a></li>
+          <li><a href="kontakt.html">📍 Anfahrt</a></li>
+          <li><a href="kontakt.html#impressum">Impressum</a></li>
+          <li><a href="kontakt.html#datenschutz">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Grund- und Mittelschule Absberg-Haundorf &bull; Dorfstraße 62, 91729 Haundorf-Gräfensteinberg</p>
+      <div class="footer-legal">
+        <a href="kontakt.html#impressum">Impressum</a>
+        <a href="kontakt.html#datenschutz">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

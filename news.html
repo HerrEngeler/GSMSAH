@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aktuelles — GSMS Absberg-Haundorf</title>
+  <meta name="description" content="Neuigkeiten, Berichte und Fotos aus dem Schulalltag der GSMS Absberg-Haundorf.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .news-filter { display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:var(--space-xl); }
+    .filter-btn { padding:.45rem 1rem;border-radius:var(--radius-full);font-size:.82rem;font-weight:600;border:2px solid var(--color-border);background:white;color:var(--color-gray);transition:all var(--transition);cursor:pointer; }
+    .filter-btn.active, .filter-btn:hover { background:var(--color-primary);border-color:var(--color-primary);color:white; }
+    .news-full-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-lg); }
+    @media(max-width:900px){ .news-full-grid{grid-template-columns:repeat(2,1fr);} }
+    @media(max-width:580px){ .news-full-grid{grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+
+<header id="header">
+  <div class="header-top">
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <svg class="logo-svg" width="44" height="44" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="48" fill="#134F5C" stroke="#DEF0F3" stroke-width="2"/>
+          <circle cx="50" cy="22" r="9" fill="#C8940A"/>
+          <line x1="37" y1="22" x2="32" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="63" y1="22" x2="68" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="35" cy="52" r="5" fill="white"/><rect x="31" y="57" width="8" height="10" rx="3" fill="white"/>
+          <circle cx="50" cy="50" r="5.5" fill="white"/><rect x="46" y="55" width="8" height="11" rx="3" fill="white"/>
+          <circle cx="65" cy="52" r="5" fill="white"/><rect x="61" y="57" width="8" height="10" rx="3" fill="white"/>
+          <path d="M18 78 Q30 72 42 78 Q54 84 66 78 Q78 72 82 78" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <div class="logo-text"><strong>GSMS Absberg-Haundorf</strong><span>Grund- und Mittelschule</span></div>
+      </a>
+      <div class="header-top-info">
+        <span>📞 <a href="tel:09837269">09837 / 269</a></span>
+        <span>✉️ <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></span>
+      </div>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <div class="nav-inner">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="unsere-schule.html">Unsere Schule</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html">Mittelschule</a></li>
+        <li><a href="angebote.html">Angebote &amp; Ganztag</a></li>
+        <li><a href="news.html" class="active">Aktuelles</a></li>
+        <li><a href="eltern.html">Eltern &amp; Downloads</a></li>
+        <li><a href="klassenfotos.html" class="nav-protect">🔒 Klassenfotos</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <button class="nav-mobile-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="hamburger-icon"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div>
+      <p class="breadcrumb"><a href="index.html">Startseite</a> <span>/</span> Aktuelles</p>
+      <div style="display:flex;align-items:center;gap:1rem;">
+        <div class="page-hero-icon">📰</div>
+        <div><h1>Aktuelles</h1><p>Neuigkeiten, Berichte und Fotos aus unserem Schulalltag</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+<section class="section">
+  <div class="container">
+    <!-- Filter Buttons -->
+    <div class="news-filter">
+      <button class="filter-btn active">Alle</button>
+      <button class="filter-btn">Grundschule</button>
+      <button class="filter-btn">Mittelschule</button>
+      <button class="filter-btn">Veranstaltungen</button>
+      <button class="filter-btn">Projekte</button>
+    </div>
+
+    <div class="news-full-grid">
+
+      <div class="news-card">
+        <div class="news-card-img">🎭</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Februar 2025</span><span class="news-card-tag">GS &amp; MS</span></div>
+          <h3>Jede Menge Faschingsgaudi</h3>
+          <p>Mit bunten Kostümen und einem schwungvollen Programm feierten alle Klassen gemeinsam den Schulkarneval. Lehrkräfte und Schüler zeigten ihr ganzes Kreativpotenzial.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🛡️</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Januar 2025</span><span class="news-card-tag">Mittelschule</span></div>
+          <h3>Suchtprävention</h3>
+          <p>Experten besuchten unsere Mittelschulklassen und beleuchteten das Thema Medienkompetenz, Cybermobbing und Suchtprävention auf kindgerechte und einprägsame Weise.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🎵</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Januar 2025</span><span class="news-card-tag">Alle Klassen</span></div>
+          <h3>Bewegende Momente</h3>
+          <p>Ein musikalisches Highlight für alle: Im Rahmen unseres Projekts haben Schüler und Lehrkräfte gemeinsam ein unvergessliches Konzerterlebnis geschaffen.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">❄️</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Januar 2025</span><span class="news-card-tag">Grundschule</span></div>
+          <h3>Hurra, es hat geschneit!</h3>
+          <p>Erster Schnee! Die Grundschülerinnen und -schüler nutzen die Pause für eine ausgelassene Schneeballschlacht – und auch die Lehrkräfte konnten nicht widerstehen.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🏛️</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Dezember 2024</span><span class="news-card-tag">Mittelschule</span></div>
+          <h3>Besuch aus Berlin</h3>
+          <p>Unser Mittelschüler erhielten Besuch vom Berliner Bundestag. Der Abgeordnete beantwortete Fragen zu Demokratie, Politik und der Arbeit im Deutschen Bundestag.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🎄</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Dezember 2024</span><span class="news-card-tag">GS &amp; MS</span></div>
+          <h3>Auf Weihnachten eingestimmt</h3>
+          <p>Mit Weihnachtsliedern, Bastelaktionen und dem traditionellen Adventssingen haben wir uns stimmungsvoll auf das Fest vorbereitet.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🥫</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Dezember 2024</span><span class="news-card-tag">Soziales</span></div>
+          <h3>Wir sammeln für die Speis</h3>
+          <p>Bereits zum wiederholten Mal sammelten unsere Schülerinnen und Schüler Lebensmittel für die lokale Tafel. Ergebnis: über 80 kg an Spenden!</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🎅</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Dezember 2024</span><span class="news-card-tag">Grundschule</span></div>
+          <h3>Nikolaus zu Besuch</h3>
+          <p>Nikolaus und Knecht Ruprecht statteten allen Grundschulklassen einen Besuch ab und hatten für jedes Kind ein kleines Säckchen dabei.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🏃</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Oktober 2024</span><span class="news-card-tag">Sport</span></div>
+          <h3>Laufen für den guten Zweck</h3>
+          <p>Beim Sponsored Run liefen unsere Schülerinnen und Schüler gemeinsam für einen guten Zweck. Das Ergebnis: über 1.200 Euro für die Schulbücherei.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">💻</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">Oktober 2024</span><span class="news-card-tag">Mittelschule</span></div>
+          <h3>Sicher im Netz unterwegs</h3>
+          <p>Ein Experte des Bildungswerkes besuchte unsere Klassen 5–7 und sensibilisierte für sicheres Verhalten im Internet und sozialen Medien.</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🐄</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">September 2024</span><span class="news-card-tag">Grundschule</span></div>
+          <h3>Stallluft geschnuppert</h3>
+          <p>Klasse 3a besuchte einen lokalen Bauernhof und erlebte hautnah, wie Lebensmittel erzeugt werden. Kälbchen streicheln inklusive!</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-img">🎉</div>
+        <div class="news-card-body">
+          <div class="news-card-meta"><span class="news-card-date">September 2024</span><span class="news-card-tag">Grundschule</span></div>
+          <h3>Willkommen in der Schule!</h3>
+          <p>Der erste Schultag für unsere 56 Erstklässlerinnen und Erstklässler – mit Einschulungsfeier, großem Schulranzen und strahlenden Kinderaugen.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-xl">
+      <p class="text-muted" style="margin-bottom:1rem;">Ältere Berichte finden Sie im Archiv</p>
+      <a href="#" class="btn btn-teal">Zum News-Archiv</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text"><strong>GSMS Absberg-Haundorf</strong><br><span>Grund- und Mittelschule</span></div>
+        <p>Leben – Lernen – Wachsen lassen.</p>
+      </div>
+      <div class="footer-col"><h4>Navigation</h4><ul>
+        <li><a href="unsere-schule.html">Unsere Schule</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html">Mittelschule</a></li>
+        <li><a href="angebote.html">Ganztag &amp; Angebote</a></li>
+        <li><a href="news.html">Aktuelles</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Für Eltern</h4><ul>
+        <li><a href="eltern.html">Elternbeirat</a></li>
+        <li><a href="eltern.html#downloads">Downloads</a></li>
+        <li><a href="klassenfotos.html">Klassenfotos 🔒</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Kontakt</h4><ul>
+        <li><a href="tel:09837269">📞 09837 / 269</a></li>
+        <li><a href="mailto:verwaltung@gsms-ah.de">✉️ E-Mail</a></li>
+        <li><a href="kontakt.html#impressum">Impressum</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Grund- und Mittelschule Absberg-Haundorf</p>
+      <div class="footer-legal"><a href="kontakt.html#impressum">Impressum</a><a href="kontakt.html#datenschutz">Datenschutz</a></div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

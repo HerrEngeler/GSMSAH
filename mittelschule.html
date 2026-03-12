@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mittelschule — GSMS Absberg-Haundorf</title>
+  <meta name="description" content="Die Mittelschule Absberg-Haundorf: Klassen 5–9, Quali-Abschluss, intensive Begleitung und der Weg in die Ausbildung.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .edu-path { display:flex; flex-direction:column; gap:.5rem; }
+    .edu-step { display:flex; align-items:center; gap:1rem; padding:.85rem 1rem; background:white; border-radius:var(--radius-sm); border:1px solid var(--color-border); }
+    .edu-step-num { width:32px;height:32px;background:var(--color-accent);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;flex-shrink:0; }
+    .edu-step-info strong { display:block;font-size:.92rem; }
+    .edu-step-info span { font-size:.8rem;color:var(--color-gray); }
+    .edu-connector { width:2px;height:16px;background:var(--color-border);margin-left:calc(1rem + 16px); }
+  </style>
+</head>
+<body>
+
+<header id="header">
+  <div class="header-top">
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <svg class="logo-svg" width="44" height="44" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="48" fill="#134F5C" stroke="#DEF0F3" stroke-width="2"/>
+          <circle cx="50" cy="22" r="9" fill="#C8940A"/>
+          <line x1="50" y1="9" x2="50" y2="4" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="37" y1="22" x2="32" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="63" y1="22" x2="68" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="35" cy="52" r="5" fill="white"/><rect x="31" y="57" width="8" height="10" rx="3" fill="white"/>
+          <circle cx="50" cy="50" r="5.5" fill="white"/><rect x="46" y="55" width="8" height="11" rx="3" fill="white"/>
+          <circle cx="65" cy="52" r="5" fill="white"/><rect x="61" y="57" width="8" height="10" rx="3" fill="white"/>
+          <path d="M18 78 Q30 72 42 78 Q54 84 66 78 Q78 72 82 78" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="20,76 26,60 32,76" fill="rgba(255,255,255,.35)"/>
+          <polygon points="68,76 74,60 80,76" fill="rgba(255,255,255,.35)"/>
+        </svg>
+        <div class="logo-text"><strong>GSMS Absberg-Haundorf</strong><span>Grund- und Mittelschule</span></div>
+      </a>
+      <div class="header-top-info">
+        <span>📞 <a href="tel:09837269">09837 / 269</a></span>
+        <span>✉️ <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></span>
+      </div>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <div class="nav-inner">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="unsere-schule.html">Unsere Schule</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html" class="active">Mittelschule</a></li>
+        <li><a href="angebote.html">Angebote &amp; Ganztag</a></li>
+        <li><a href="news.html">Aktuelles</a></li>
+        <li><a href="eltern.html">Eltern &amp; Downloads</a></li>
+        <li><a href="klassenfotos.html" class="nav-protect">🔒 Klassenfotos</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <button class="nav-mobile-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="hamburger-icon"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero" style="background:linear-gradient(135deg,#8B001A,#B5001B);">
+  <div class="container">
+    <div>
+      <p class="breadcrumb"><a href="index.html">Startseite</a> <span>/</span> Mittelschule</p>
+      <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+        <div class="page-hero-icon">🎓</div>
+        <div>
+          <h1>Mittelschule Absberg-Haundorf</h1>
+          <p>Klassen 5–9 &bull; Qualifizierender Abschluss &bull; Alle Türen offen</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+<!-- MOTTO -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Unser Ansatz</div>
+        <h2>Auch die Mittelschule ist eine höher führende Schule!</h2>
+        <p class="lead">Leben &ndash; Lernen &ndash; Wachsen lassen: Wir glauben daran, dass jedes Kind in seinem eigenen Tempo wachsen kann.</p>
+        <p>Zahlreiche Medienberichte, aber auch Fälle aus dem Alltag zeigen: Unsere Kinder sind dem stetigen Bildungsdruck oft nicht gewachsen. Wir bieten deshalb einen Lernraum, der Entfaltung statt Druck ermöglicht – und trotzdem außerordentliche Ergebnisse liefert.</p>
+        <p>Alle unsere Schülerinnen und Schüler finden einen Ausbildungsplatz – sofern gewollt. Unsere überdurchschnittlichen Quali-Abschlüsse sprechen für sich.</p>
+        <div class="info-box info-box--accent mt-md">
+          <h4>Der Schulverbund</h4>
+          <p>Wir sind Teil eines Schulverbunds, der durch Kooperation und gegenseitige Unterstützung den Schülerinnen und Schülern ein breites Bildungsangebot sichert.</p>
+        </div>
+      </div>
+      <div>
+        <h3 style="margin-bottom:1rem;">Unsere Stärken</h3>
+        <div class="pros-list">
+          <div class="pro-item"><div class="pro-icon">👥</div><p class="pro-text"><strong>Kleine Klassen</strong> – intensive individuelle Betreuung jedes Schülers</p></div>
+          <div class="pro-item"><div class="pro-icon">🎯</div><p class="pro-text"><strong>Überdurchschnittliche Quali-Abschlüsse</strong> – nachweislich</p></div>
+          <div class="pro-item"><div class="pro-icon">🤝</div><p class="pro-text"><strong>Starke Ausbildungskooperation</strong> – enge Beziehungen zu regionalen Betrieben</p></div>
+          <div class="pro-item"><div class="pro-icon">🏡</div><p class="pro-text"><strong>Vertrautes Umfeld</strong> – Kinder bleiben in ihrem sozialen Gefüge</p></div>
+          <div class="pro-item"><div class="pro-icon">📈</div><p class="pro-text"><strong>Wachstum im eigenen Tempo</strong> – ohne Burn-out und Schulstress</p></div>
+          <div class="pro-item"><div class="pro-icon">🎓</div><p class="pro-text"><strong>Alle Bildungswege</strong> – Von der Mittelschule bis zur Universität</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KLASSEN MS -->
+<section class="section section--light" id="klassen">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Schuljahr 2025/26</div>
+      <h2>Unsere Klassen</h2>
+    </div>
+    <div class="class-grid">
+      <a href="#" class="class-chip ms-class"><span class="class-num">5a</span><span>Haupthaus</span></a>
+      <a href="#" class="class-chip ms-class"><span class="class-num">5b</span><span>Haupthaus</span></a>
+      <a href="#" class="class-chip ms-class"><span class="class-num">6</span><span>Haupthaus</span></a>
+      <a href="#" class="class-chip ms-class"><span class="class-num">7</span><span>Haupthaus</span></a>
+      <a href="#" class="class-chip ms-class"><span class="class-num">8</span><span>Haupthaus</span></a>
+      <a href="#" class="class-chip ms-class"><span class="class-num">9</span><span>Haupthaus</span></a>
+      <a href="#" class="class-chip ms-class"><span class="class-num" style="font-size:.9rem;">Brücke</span><span>Brückenklasse</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- DER QUALI -->
+<section class="section" id="quali">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Abschluss</div>
+        <h2>Der Qualifizierende Abschluss</h2>
+        <p class="lead">Mit dem Qualifizierenden Abschluss der Mittelschule (Quali) öffnen sich zahlreiche Türen für die berufliche Zukunft.</p>
+        <p>Unsere Schülerinnen und Schüler erzielen regelmäßig überdurchschnittliche Ergebnisse im Quali – das ist das Ergebnis unserer intensiven, individuellen Förderung und der engen Begleitung durch unser erfahrenes Lehrerkollegium.</p>
+        <div class="info-box info-box--primary mt-md">
+          <h4>📌 Prüfungstermine 2026</h4>
+          <p>Die genauen Termine für die Quali-Prüfungen 2026 werden rechtzeitig auf dieser Seite und per Elternbrief bekanntgegeben.</p>
+        </div>
+        <div class="info-box info-box--warning mt-md">
+          <h4>📋 Wichtige Unterlagen</h4>
+          <p>Alle notwendigen Formulare und Informationen zum Quali finden Sie im <a href="eltern.html#downloads">Download-Bereich</a>.</p>
+        </div>
+      </div>
+      <div>
+        <h3 style="margin-bottom:1rem;">Unsere Schulkleidung</h3>
+        <div class="card">
+          <div class="card-img-placeholder">👕</div>
+          <div class="card-body">
+            <div class="card-tag">Gemeinschaft stärken</div>
+            <h3>Schulkleidung GSMS</h3>
+            <p>Unsere Schulkleidung stärkt das Gemeinschaftsgefühl und gibt allen Schülerinnen und Schülern ein gemeinsames Erscheinungsbild.</p>
+            <p>Informationen zu Bestellung und Preisen erhalten Sie im Sekretariat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BILDUNGSWEG -->
+<section class="section section--light" id="bildungsweg">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Weiterführende Bildung</div>
+      <h2>Von der Mittelschule bis zur Universität</h2>
+      <p>Die Mittelschule ist kein Ende – sie ist der Beginn eines vielfältigen Bildungsweges.</p>
+    </div>
+    <div class="two-col">
+      <div class="edu-path">
+        <div class="edu-step">
+          <div class="edu-step-num">1</div>
+          <div class="edu-step-info"><strong>Mittelschule (Klasse 5–9)</strong><span>Mittlerer Schulabschluss / Qualifizierender Abschluss</span></div>
+        </div>
+        <div class="edu-connector"></div>
+        <div class="edu-step">
+          <div class="edu-step-num">2</div>
+          <div class="edu-step-info"><strong>Duale Ausbildung</strong><span>Berufsschule + Betrieb – direkter Einstieg ins Berufsleben</span></div>
+        </div>
+        <div class="edu-connector"></div>
+        <div class="edu-step">
+          <div class="edu-step-num">3</div>
+          <div class="edu-step-info"><strong>Berufsschule / Berufsfachschule</strong><span>Mittlere Reife, FOS-Reife möglich</span></div>
+        </div>
+        <div class="edu-connector"></div>
+        <div class="edu-step">
+          <div class="edu-step-num">4</div>
+          <div class="edu-step-info"><strong>Fachoberschule (FOS)</strong><span>Fachhochschulreife</span></div>
+        </div>
+        <div class="edu-connector"></div>
+        <div class="edu-step">
+          <div class="edu-step-num">5</div>
+          <div class="edu-step-info"><strong>Hochschule / Universität</strong><span>Alle akademischen Abschlüsse erreichbar</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="info-box info-box--primary">
+          <h4>🏫 Informationsabend</h4>
+          <p>Jedes Jahr veranstalten wir einen Informationsabend zu den weiterführenden Schulen und Ausbildungswegen. Termin auf Anfrage im Sekretariat.</p>
+        </div>
+        <div class="info-box info-box--warning mt-md">
+          <h4>📄 Bildungsweg als Download</h4>
+          <p>Die vollständige Grafik "Bildungsweg von der Mittelschule zur Universität" steht als PDF zum Download bereit.</p>
+          <a href="#" class="btn btn-teal btn-sm mt-sm">⬇ PDF herunterladen</a>
+        </div>
+        <div class="info-box info-box--accent mt-md">
+          <h4>💼 Betriebspraktikum</h4>
+          <p>Unsere Schülerinnen und Schüler der Klassen 8 und 9 absolvieren ein mehrtägiges Betriebspraktikum. Keine andere Schule arbeitet so eng mit regionalen Ausbildungsbetrieben zusammen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SMV -->
+<section class="section">
+  <div class="container">
+    <div class="two-col two-col--wide">
+      <div>
+        <div class="section-label">Schülervertretung</div>
+        <h2>SMV – Schüler Mitverantwortung</h2>
+        <p>Die Schüler-Mitverantwortung (SMV) gibt unseren Schülerinnen und Schülern eine aktive Stimme in der Schulgemeinschaft. Sie organisieren eigene Projekte, vertreten Interessen und gestalten das Schulleben mit.</p>
+        <a href="news.html" class="btn btn-teal btn-sm mt-md">Aktuelle SMV-Projekte</a>
+      </div>
+      <div>
+        <div class="info-box info-box--primary">
+          <h4>🎯 Schülervertretung kontaktieren</h4>
+          <p>Die SMV der Mittelschule ist über das Sekretariat erreichbar: <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text"><strong>GSMS Absberg-Haundorf</strong><br><span>Grund- und Mittelschule</span></div>
+        <p>Leben – Lernen – Wachsen lassen.</p>
+      </div>
+      <div class="footer-col"><h4>Navigation</h4><ul>
+        <li><a href="unsere-schule.html">Unsere Schule</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html">Mittelschule</a></li>
+        <li><a href="angebote.html">Ganztag &amp; Angebote</a></li>
+        <li><a href="news.html">Aktuelles</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Für Eltern</h4><ul>
+        <li><a href="eltern.html">Elternbeirat</a></li>
+        <li><a href="eltern.html#downloads">Downloads</a></li>
+        <li><a href="klassenfotos.html">Klassenfotos 🔒</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Kontakt</h4><ul>
+        <li><a href="tel:09837269">📞 09837 / 269</a></li>
+        <li><a href="mailto:verwaltung@gsms-ah.de">✉️ E-Mail</a></li>
+        <li><a href="kontakt.html#impressum">Impressum</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Grund- und Mittelschule Absberg-Haundorf</p>
+      <div class="footer-legal"><a href="kontakt.html#impressum">Impressum</a><a href="kontakt.html#datenschutz">Datenschutz</a></div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klassenfotos — GSMS Absberg-Haundorf</title>
+  <meta name="description" content="Geschützter Bereich für Klassenfotos und Aktionsfotos. Nur für Eltern und Erziehungsberechtigte mit Zugangscode.">
+  <!-- Prevent indexing of this protected page -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="header-top">
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <svg class="logo-svg" width="44" height="44" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="48" fill="#134F5C" stroke="#DEF0F3" stroke-width="2"/>
+          <circle cx="50" cy="22" r="9" fill="#C8940A"/>
+          <line x1="37" y1="22" x2="32" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="63" y1="22" x2="68" y2="22" stroke="#C8940A" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="35" cy="52" r="5" fill="white"/><rect x="31" y="57" width="8" height="10" rx="3" fill="white"/>
+          <circle cx="50" cy="50" r="5.5" fill="white"/><rect x="46" y="55" width="8" height="11" rx="3" fill="white"/>
+          <circle cx="65" cy="52" r="5" fill="white"/><rect x="61" y="57" width="8" height="10" rx="3" fill="white"/>
+          <path d="M18 78 Q30 72 42 78 Q54 84 66 78 Q78 72 82 78" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <div class="logo-text"><strong>GSMS Absberg-Haundorf</strong><span>Grund- und Mittelschule</span></div>
+      </a>
+      <div class="header-top-info">
+        <span>📞 <a href="tel:09837269">09837 / 269</a></span>
+        <span>✉️ <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></span>
+      </div>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <div class="nav-inner">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="unsere-schule.html">Unsere Schule</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html">Mittelschule</a></li>
+        <li><a href="angebote.html">Angebote &amp; Ganztag</a></li>
+        <li><a href="news.html">Aktuelles</a></li>
+        <li><a href="eltern.html">Eltern &amp; Downloads</a></li>
+        <li><a href="klassenfotos.html" class="nav-protect active">🔒 Klassenfotos</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <button class="nav-mobile-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="hamburger-icon"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero" style="background:linear-gradient(135deg,#5A4500,#C8940A);">
+  <div class="container">
+    <div>
+      <p class="breadcrumb"><a href="index.html">Startseite</a> <span>/</span> Klassenfotos</p>
+      <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+        <div class="page-hero-icon">🔒</div>
+        <div>
+          <h1>Klassenfotos &amp; Aktionsfotos</h1>
+          <p>Geschützter Bereich &bull; Nur für Eltern &amp; Erziehungsberechtigte</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+<section class="section">
+  <div class="container" style="max-width:800px;">
+
+    <!-- LOCK AREA -->
+    <div id="lockArea">
+      <div class="protected-area">
+        <div class="lock-icon">🔒</div>
+        <h2>Zugangsbeschränkter Bereich</h2>
+        <p>Dieser Bereich enthält Fotos unserer Schulkinder und ist daher aus Datenschutzgründen passwortgeschützt. Den Zugangscode erhalten Sie über die Klassenleitung Ihres Kindes oder per Elternbrief.</p>
+
+        <form class="password-form" id="photoPasswordForm" autocomplete="off">
+          <input
+            type="password"
+            class="password-input"
+            id="photoPassword"
+            placeholder="Passwort eingeben"
+            aria-label="Passwort für Klassenfotos"
+            required
+          >
+          <button type="submit" class="btn btn-teal">Zugang</button>
+        </form>
+        <p class="password-error" id="photoPasswordError">
+          ⚠️ Falsches Passwort. Bitte wenden Sie sich an die Klassenleitung.
+        </p>
+        <p style="font-size:.8rem;color:var(--color-gray);margin-top:1rem;">
+          <strong>Demo-Passwort für diesen Prototyp:</strong> gsms-fotos
+        </p>
+      </div>
+
+      <!-- DATENSCHUTZ HINWEIS -->
+      <div class="info-box info-box--primary mt-lg">
+        <h4>🔐 Datenschutz &amp; KI-Hinweis</h4>
+        <p>Die Fotos in diesem Bereich unterliegen dem besonderen Schutz personenbezogener Daten (DSGVO). Bitte beachten Sie:</p>
+        <ul style="margin-top:.75rem;padding-left:1.25rem;font-size:.9rem;line-height:1.7;color:var(--color-mid);">
+          <li>Fotos dürfen <strong>nicht</strong> in sozialen Netzwerken veröffentlicht werden.</li>
+          <li>Die Weitergabe an Dritte ist untersagt.</li>
+          <li><strong>KI-Warnung:</strong> Fotos von Kindern dürfen nicht in KI-Bildgeneratoren oder -Erkennungssysteme eingegeben werden.</li>
+          <li>Bei Fragen wenden Sie sich an: <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- GALLERY (shown after login) -->
+    <div class="photo-gallery" id="photoGallery">
+
+      <div class="privacy-notice">
+        <span>🔐</span>
+        <div>
+          <strong>Datenschutzhinweis:</strong> Diese Fotos enthalten personenbezogene Daten von Minderjährigen.
+          Bitte <strong>nicht</strong> in sozialen Netzwerken teilen, nicht an KI-Systeme weitergeben und nur für private Zwecke verwenden.
+          <a href="kontakt.html#datenschutz" style="color:var(--color-primary)">Mehr zum Datenschutz</a>
+        </div>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-lg);flex-wrap:wrap;gap:1rem;">
+        <div>
+          <h2 style="margin-bottom:.25rem;">Fotos Schuljahr 2024/25</h2>
+          <p class="text-muted" style="margin:0;font-size:.9rem;">Klicken Sie auf eine Klasse, um die Bilder zu sehen.</p>
+        </div>
+        <button class="btn btn-sm" id="galleryLogout" style="border:1px solid var(--color-border);background:white;color:var(--color-gray);">
+          🔓 Abmelden
+        </button>
+      </div>
+
+      <div class="gallery-tabs" role="tablist">
+        <button class="gallery-tab active" data-target="gallery-1a" role="tab">Klasse 1a</button>
+        <button class="gallery-tab" data-target="gallery-1b" role="tab">Klasse 1b</button>
+        <button class="gallery-tab" data-target="gallery-2a" role="tab">Klasse 2a</button>
+        <button class="gallery-tab" data-target="gallery-3a" role="tab">Klasse 3a</button>
+        <button class="gallery-tab" data-target="gallery-4a" role="tab">Klasse 4a</button>
+        <button class="gallery-tab" data-target="gallery-5a" role="tab">Klasse 5a</button>
+        <button class="gallery-tab" data-target="gallery-8" role="tab">Klasse 8</button>
+        <button class="gallery-tab" data-target="gallery-events" role="tab">Schulevents</button>
+      </div>
+
+      <!-- Placeholder galleries (each would contain real photos) -->
+      <div id="gallery-1a" class="gallery-grid gallery-panel">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-1b" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-2a" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-3a" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-4a" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-5a" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-8" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">📸</div>
+        <div class="gallery-photo">📸</div>
+      </div>
+      <div id="gallery-events" class="gallery-grid gallery-panel" style="display:none;">
+        <div class="gallery-photo">🎭</div>
+        <div class="gallery-photo">🎄</div>
+        <div class="gallery-photo">🏃</div>
+        <div class="gallery-photo">🌳</div>
+        <div class="gallery-photo">🎵</div>
+        <div class="gallery-photo">❄️</div>
+      </div>
+
+      <div class="notice mt-xl">
+        <span>📧</span>
+        <p>Möchten Sie Fotos aus einer Aktion teilen oder hochladen? Wenden Sie sich bitte an die Klassenleitung oder senden Sie uns eine E-Mail an <a href="mailto:verwaltung@gsms-ah.de">verwaltung@gsms-ah.de</a>.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text"><strong>GSMS Absberg-Haundorf</strong><br><span>Grund- und Mittelschule</span></div>
+        <p>Leben – Lernen – Wachsen lassen.</p>
+      </div>
+      <div class="footer-col"><h4>Navigation</h4><ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="grundschule.html">Grundschule</a></li>
+        <li><a href="mittelschule.html">Mittelschule</a></li>
+        <li><a href="news.html">Aktuelles</a></li>
+        <li><a href="eltern.html">Downloads</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Datenschutz</h4><ul>
+        <li><a href="kontakt.html#datenschutz">Datenschutzerklärung</a></li>
+        <li><a href="kontakt.html#impressum">Impressum</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Kontakt</h4><ul>
+        <li><a href="tel:09837269">📞 09837 / 269</a></li>
+        <li><a href="mailto:verwaltung@gsms-ah.de">✉️ E-Mail</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Grund- und Mittelschule Absberg-Haundorf &bull; Fotos unterliegen dem Datenschutz (DSGVO)</p>
+      <div class="footer-legal"><a href="kontakt.html#impressum">Impressum</a><a href="kontakt.html#datenschutz">Datenschutz</a></div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
